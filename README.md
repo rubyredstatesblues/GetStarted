@@ -4,6 +4,34 @@
 
 Our organization stands firmly against **fascism and communism**, two extremist ideologies that—despite surface differences—both rely on authoritarian control, suppression of individual freedoms, and the subordination of people to rigid state or party power, leading historically to oppression, economic stagnation, and human suffering. We champion a **pro-globalist** vision: interconnected nations cooperating through open trade, multilateral institutions, shared democratic values, and rules-based international order to foster peace, prosperity, and innovation that transcend narrow nationalisms or collectivist dogmas. At the same time, we reject **voodoo economics**—the discredited supply-side fantasy of massive tax cuts for the wealthy and corporations magically paying for themselves through unchecked "trickle-down" growth—which repeatedly fuels inequality, balloons deficits, and undermines sustainable public investment without delivering broad-based benefits. Instead, we advocate evidence-based, inclusive economic policies that harness global markets while ensuring fair rules, strong social safety nets, and responsible fiscal stewardship to build a freer, more equitable world for all.
 
+# Microsoft Word
+
+## Transcript Upload Instructions
+
+1. Prepare your audio or video file for transcription.
+2. Ensure the file size is **less than 300 MB**.
+3. Upload the file using the transcript upload tool.
+   
+![Transcript_Button.jpg](https://github.com/rubyredstatesblues/resources/blob/main/Miscroft_Word/Transcript_Button.jpg)
+
+6. Wait while the system processes the file.
+
+### File Size Error Message
+
+If the file exceeds the allowed size, the following message will appear:
+
+> **This file is too large to be transcribed. Try again with a file that's less than 300 MB.**
+
+### How to Resolve the Issue
+
+- Compress the file or lower the audio quality.
+- Split the recording into smaller files (each under 300 MB).
+- Trim unnecessary sections such as long silences or unused content.
+
+After adjusting the file size, upload the file again to proceed with transcription.
+
+
+
 
 # Markdown
 
