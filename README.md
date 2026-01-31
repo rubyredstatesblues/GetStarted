@@ -80,6 +80,8 @@ the media folder, or automate this for multiple files.
 
 LosslessCut aims to be the ultimate cross platform FFmpeg GUI for extremely fast and lossless operations on video, audio, subtitle and other related media files. The main feature is lossless trimming and cutting of video and audio files, which is great for saving space by rough-cutting your large video files taken from a video camera, GoPro, drone, etc. It lets you quickly extract the good parts from your videos and discard many gigabytes of data without doing a slow re-encode and thereby losing quality. There are also many more use cases. Everything is extremely fast because it does an almost direct data copy, fueled by the awesome FFmpeg which does all the grunt work.
 
+[LosslessCut Tutorial Series - YouTube - tutortube](https://www.youtube.com/playlist?list=PL_dhPga7ruueJ4GWDtBGf67G6S-QWp8wp)
+
 ---
 
 # Bender
