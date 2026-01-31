@@ -1,0 +1,424 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ruby Red States Blues</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --red: #e02424;
+      --dark: #111111;
+      --light: #f5f5f5;
+      --accent: #f5b400;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    body {
+      background: var(--light);
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--dark);
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .brand img {
+      height: 64px;
+      width: auto;
+      display: block;
+    }
+
+    .brand-text h1 {
+      font-size: 1.4rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .brand-text span {
+      font-size: 0.8rem;
+      opacity: 0.8;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    nav a:hover {
+      color: var(--accent);
+    }
+
+    .hero {
+      background: radial-gradient(circle at top, #2b2b2b 0, #000 55%, #111 100%);
+      color: #fff;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .hero-inner {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .hero h2 {
+      font-size: 2.4rem;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    .hero p {
+      font-size: 1.05rem;
+      margin-bottom: 2rem;
+      opacity: 0.9;
+    }
+
+    .hero .cta-group {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .btn {
+      border: none;
+      cursor: pointer;
+      padding: 0.9rem 1.8rem;
+      border-radius: 999px;
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-weight: 600;
+      transition: transform 0.1s ease, box-shadow 0.1s ease, background 0.2s ease;
+    }
+
+    .btn-primary {
+      background: var(--red);
+      color: #fff;
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.4);
+    }
+
+    .btn-primary:hover {
+      background: #ff3a3a;
+      transform: translateY(-1px);
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: #fff;
+      border: 1px solid #fff;
+    }
+
+    .btn-outline:hover {
+      background: #fff;
+      color: #000;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 2.5rem auto 3.5rem;
+      padding: 0 1.5rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    section h3 {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--dark);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    }
+
+    .card h4 {
+      margin-bottom: 0.5rem;
+      font-size: 1.05rem;
+      color: var(--red);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+    }
+
+    .issues-list li {
+      margin-bottom: 0.6rem;
+    }
+
+    .issues-list strong {
+      color: var(--red);
+    }
+
+    .signup-form {
+      background: #fff;
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+      max-width: 480px;
+    }
+
+    .signup-form label {
+      display: block;
+      font-size: 0.85rem;
+      margin-bottom: 0.25rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #555;
+    }
+
+    .signup-form input,
+    .signup-form select {
+      width: 100%;
+      padding: 0.6rem 0.75rem;
+      margin-bottom: 0.9rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 0.95rem;
+    }
+
+    .signup-form small {
+      display: block;
+      font-size: 0.75rem;
+      color: #777;
+      margin-bottom: 0.75rem;
+    }
+
+    footer {
+      background: var(--dark);
+      color: #aaa;
+      padding: 1.5rem 2rem;
+      font-size: 0.8rem;
+      text-align: center;
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 640px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+      }
+
+      nav ul {
+        flex-wrap: wrap;
+        gap: 0.75rem;
+      }
+
+      .hero h2 {
+        font-size: 1.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <!-- Replace "logo.png" with the path to your uploaded logo image -->
+      <img src="logo.png" alt="Ruby Red States Blues logo" />
+      <div class="brand-text">
+        <h1>Ruby Red States Blues</h1>
+        <span>Voices from the heart of the map</span>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#issues">Issues</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#get-involved">Get Involved</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <h2>Bridging the divide, one state at a time</h2>
+      <p>
+        Ruby Red States Blues is a space for thoughtful conversation, local stories, and practical ideas
+        from communities that shape national debates every day.
+      </p>
+      <div class="cta-group">
+        <button class="btn btn-primary">Join the newsletter</button>
+        <button class="btn btn-outline">Read latest articles</button>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="about">
+      <h3>About</h3>
+      <div class="grid">
+        <div class="card">
+          <h4>Our mission</h4>
+          <p>
+            We highlight perspectives from across the political spectrum in predominantly conservative regions,
+            focusing on shared challenges, local solutions, and respectful debate.
+          </p>
+        </div>
+        <div class="card">
+          <h4>Our approach</h4>
+          <p>
+            Through interviews, essays, and community spotlights, we amplify voices that are often reduced to
+            stereotypes in national conversations.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="issues">
+      <h3>Key topics</h3>
+      <div class="grid">
+        <div class="card">
+          <h4>Policy & governance</h4>
+          <ul class="issues-list">
+            <li><strong>Local leadership:</strong> How city and county decisions shape daily life.</li>
+            <li><strong>Representation:</strong> What residents want from their elected officials.</li>
+            <li><strong>Accountability:</strong> Tracking promises, budgets, and outcomes.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>Community & culture</h4>
+          <ul class="issues-list">
+            <li><strong>Work & wages:</strong> Stories from small towns and growing metros.</li>
+            <li><strong>Education:</strong> Classrooms, campuses, and career paths.</li>
+            <li><strong>Civic life:</strong> Faith groups, nonprofits, and local organizers.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="events">
+      <h3>Events & conversations</h3>
+      <div class="grid">
+        <div class="card">
+          <h4>Upcoming forums</h4>
+          <p>
+            Monthly online and in-person conversations featuring residents, journalists, and policy experts
+            discussing issues that matter most in their communities.
+          </p>
+        </div>
+        <div class="card">
+          <h4>Host a gathering</h4>
+          <p>
+            Want to bring a Ruby Red States Blues conversation to your town, campus, or organization?
+            Reach out to collaborate on a local event.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="get-involved">
+      <h3>Get involved</h3>
+      <div class="grid">
+        <div class="signup-form">
+          <h4>Stay connected</h4>
+          <p style="margin-bottom: 0.75rem;">
+            Sign up for updates on new stories, events, and ways to participate.
+          </p>
+          <form>
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name" placeholder="Your name" />
+
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="you@example.com" />
+
+            <label for="state">State</label>
+            <select id="state" name="state">
+              <option value="">Select your state</option>
+              <option>Alabama</option>
+              <option>Alaska</option>
+              <option>Arizona</option>
+              <!-- Add remaining states as needed -->
+            </select>
+
+            <small>
+              By submitting, you agree to receive occasional emails about new content and events.
+            </small>
+
+            <button type="submit" class="btn btn-primary">Sign up</button>
+          </form>
+        </div>
+
+        <div class="card">
+          <h4>Contribute your story</h4>
+          <p>
+            We welcome essays, op-eds, and personal reflections from residents, organizers, and local leaders.
+            Share what life and politics look like where you live.
+          </p>
+          <p style="margin-top: 0.75rem;">
+            You can adapt this section to link to a submission form or email address for pitches.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Ruby Red States Blues. All rights reserved.</p>
+    <p>
+      Site template. Customize content, links, and policies as needed.
+    </p>
+  </footer>
+
+  <script>
+    // Set current year in footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+```
