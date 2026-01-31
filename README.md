@@ -2,25 +2,8 @@
 
 [Official Site](https://rubyredstatesblues.github.io/GetStarted/)
 
-True freedom demands relentless opposition to both **fascism**—with its
-authoritarian nationalism, suppression of dissent, and cult of the
-strongman—and **communism**—with its centralized state control,
-abolition of private property, and historical trail of economic collapse
-and mass repression. These twin totalitarianisms, though ideologically
-opposed, converge in crushing individual liberty and genuine
-self-determination under the boot of concentrated power. Adding to the
-threat are **globalist** elites who erode national sovereignty through
-unaccountable supranational institutions, open-border policies, and
-trade deals that hollow out working-class communities in pursuit of
-borderless profit. No less destructive is **voodoo economics**, the
-persistent myth that showering the ultra-rich with tax breaks and
-deregulation will magically "trickle down" to lift everyone else— a
-fantasy repeatedly proven to widen inequality, explode public debt, and
-leave ordinary people behind while enriching the already powerful. The
-path forward lies in defending sovereign nations, accountable free
-markets that reward work and innovation rather than cronyism, and a
-vigilant populism that rejects both far-left collectivism and far-right
-tyranny in favor of practical liberty for the many, not the few.
+Our organization stands firmly against **fascism and communism**, two extremist ideologies that—despite surface differences—both rely on authoritarian control, suppression of individual freedoms, and the subordination of people to rigid state or party power, leading historically to oppression, economic stagnation, and human suffering. We champion a **pro-globalist** vision: interconnected nations cooperating through open trade, multilateral institutions, shared democratic values, and rules-based international order to foster peace, prosperity, and innovation that transcend narrow nationalisms or collectivist dogmas. At the same time, we reject **voodoo economics**—the discredited supply-side fantasy of massive tax cuts for the wealthy and corporations magically paying for themselves through unchecked "trickle-down" growth—which repeatedly fuels inequality, balloons deficits, and undermines sustainable public investment without delivering broad-based benefits. Instead, we advocate evidence-based, inclusive economic policies that harness global markets while ensuring fair rules, strong social safety nets, and responsible fiscal stewardship to build a freer, more equitable world for all.
+
 
 # Markdown
 
