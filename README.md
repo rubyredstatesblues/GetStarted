@@ -67,7 +67,4 @@ pulling out all images/media into a folder in the current directory.
 If you want, I can also explain how to customize the output, clean up
 the media folder, or automate this for multiple files.
 
-
-``` bash
-pandoc -t gfm --extract-media . "fan guide.docx" -o main.md
-```
+---
