@@ -114,6 +114,8 @@ LosslessCut aims to be the ultimate cross platform FFmpeg GUI for extremely fast
 
 # Bender
 
+![Icon.jpg](https://github.com/rubyredstatesblues/resources/blob/main/Blender/Icon.jpg)
+
 [Official Website](https://www.blender.org/download/)
 
 Blender is the Free and Open Source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, sculpting, rigging, 3D and 2D animation, simulation, rendering, compositing, motion tracking and video editing. Support Blender development on https://fund.blender.org.
