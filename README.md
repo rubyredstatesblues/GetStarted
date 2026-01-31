@@ -2,6 +2,8 @@
 
 # Markdown
 
+Markdown is a lightweight markup language used to format text using simple, human‑readable symbols. It’s popular because you can write plain text and still produce clean, structured documents—perfect for notes, documentation, websites, and README files on GitHub.
+
 ## Convert Mirosoft Documents to Markdown
 
 * [How to Convert a Word Document to Markdown for Free using Pandoc](https://www.youtube.com/watch?v=HPSK7q13-40)
