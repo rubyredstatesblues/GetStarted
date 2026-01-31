@@ -75,3 +75,17 @@ If you want, I can also explain how to customize the output, clean up
 the media folder, or automate this for multiple files.
 
 ---
+# Lossless Cut
+[GitHub Down Software](https://github.com/mifi/lossless-cut)
+
+LosslessCut aims to be the ultimate cross platform FFmpeg GUI for extremely fast and lossless operations on video, audio, subtitle and other related media files. The main feature is lossless trimming and cutting of video and audio files, which is great for saving space by rough-cutting your large video files taken from a video camera, GoPro, drone, etc. It lets you quickly extract the good parts from your videos and discard many gigabytes of data without doing a slow re-encode and thereby losing quality. There are also many more use cases. Everything is extremely fast because it does an almost direct data copy, fueled by the awesome FFmpeg which does all the grunt work.
+
+---
+
+# Bender
+
+[Official Website](https://www.blender.org/download/)
+
+Blender is the Free and Open Source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, sculpting, rigging, 3D and 2D animation, simulation, rendering, compositing, motion tracking and video editing. Support Blender development on https://fund.blender.org.
+
+----
