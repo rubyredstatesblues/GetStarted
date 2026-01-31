@@ -4,16 +4,17 @@
 
 Our organization stands firmly against **fascism and communism**, two extremist ideologies that—despite surface differences—both rely on authoritarian control, suppression of individual freedoms, and the subordination of people to rigid state or party power, leading historically to oppression, economic stagnation, and human suffering. We champion a **pro-globalist** vision: interconnected nations cooperating through open trade, multilateral institutions, shared democratic values, and rules-based international order to foster peace, prosperity, and innovation that transcend narrow nationalisms or collectivist dogmas. At the same time, we reject **voodoo economics**—the discredited supply-side fantasy of massive tax cuts for the wealthy and corporations magically paying for themselves through unchecked "trickle-down" growth—which repeatedly fuels inequality, balloons deficits, and undermines sustainable public investment without delivering broad-based benefits. Instead, we advocate evidence-based, inclusive economic policies that harness global markets while ensuring fair rules, strong social safety nets, and responsible fiscal stewardship to build a freer, more equitable world for all.
 
-# Microsoft Word
-![Microsoft Word - Icon.png](https://github.com/rubyredstatesblues/resources/blob/main/Miscroft_Word/Icon.png)
+# Mircosoft Word
+
+<img src="https://github.com/rubyredstatesblues/resources/blob/main/Miscroft_Word/Icon.png" width="60" height="60" alt="Mircosoft Word Icon">
 
 ## Transcript Upload Instructions
 
 1. Prepare your audio or video file for transcription.
 2. Ensure the file size is **less than 300 MB**.
 3. Upload the file using the transcript upload tool.
-   
-![Transcript_Button.jpg](https://github.com/rubyredstatesblues/resources/blob/main/Miscroft_Word/Transcript_Button.jpg)
+
+<img src="https://github.com/rubyredstatesblues/resources/blob/main/Miscroft_Word/Transcript_Button.jpg" width="400" height="400" alt="Mircosoft Word Transcript Button">
 
 6. Wait while the system processes the file.
 
@@ -106,7 +107,9 @@ the media folder, or automate this for multiple files.
 
 ---
 # Lossless Cut
-![Lossless Cut - Icon.png](https://github.com/rubyredstatesblues/resources/blob/main/LosslessCut/Icon.png)
+
+<img src="https://github.com/rubyredstatesblues/resources/blob/main/LosslessCut/Icon.png" width="100" height="100" alt="Lossless Cut Icon">
+
 [GitHub Down Software](https://github.com/mifi/lossless-cut)
 
 LosslessCut aims to be the ultimate cross platform FFmpeg GUI for extremely fast and lossless operations on video, audio, subtitle and other related media files. The main feature is lossless trimming and cutting of video and audio files, which is great for saving space by rough-cutting your large video files taken from a video camera, GoPro, drone, etc. It lets you quickly extract the good parts from your videos and discard many gigabytes of data without doing a slow re-encode and thereby losing quality. There are also many more use cases. Everything is extremely fast because it does an almost direct data copy, fueled by the awesome FFmpeg which does all the grunt work.
