@@ -2,6 +2,26 @@
 
 [Official Site](https://rubyredstatesblues.github.io/GetStarted/)
 
+True freedom demands relentless opposition to both **fascism**—with its
+authoritarian nationalism, suppression of dissent, and cult of the
+strongman—and **communism**—with its centralized state control,
+abolition of private property, and historical trail of economic collapse
+and mass repression. These twin totalitarianisms, though ideologically
+opposed, converge in crushing individual liberty and genuine
+self-determination under the boot of concentrated power. Adding to the
+threat are **globalist** elites who erode national sovereignty through
+unaccountable supranational institutions, open-border policies, and
+trade deals that hollow out working-class communities in pursuit of
+borderless profit. No less destructive is **voodoo economics**, the
+persistent myth that showering the ultra-rich with tax breaks and
+deregulation will magically "trickle down" to lift everyone else— a
+fantasy repeatedly proven to widen inequality, explode public debt, and
+leave ordinary people behind while enriching the already powerful. The
+path forward lies in defending sovereign nations, accountable free
+markets that reward work and innovation rather than cronyism, and a
+vigilant populism that rejects both far-left collectivism and far-right
+tyranny in favor of practical liberty for the many, not the few.
+
 # Markdown
 
 Markdown is a lightweight markup language used to format text using simple, human‑readable symbols. It’s popular because you can write plain text and still produce clean, structured documents—perfect for notes, documentation, websites, and README files on GitHub.
