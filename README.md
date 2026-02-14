@@ -43,9 +43,9 @@ After adjusting the file size, upload the file again to proceed with transcripti
 
 Markdown is a lightweight markup language used to format text using simple, human‑readable symbols. It’s popular because you can write plain text and still produce clean, structured documents—perfect for notes, documentation, websites, and README files on GitHub.
 
-## Convert Mirosoft Documents to Markdown
+## Convert Mirosoft Word Documents to Markdown
 
-* [Official Website](https://pandoc.org/)
+* [Pandoc a Universal Document Converter](https://pandoc.org/)
 * [How to Convert a Word Document to Markdown for Free using Pandoc](https://www.youtube.com/watch?v=HPSK7q13-40)
 * [Download Software](https://github.com/jgm/pandoc)
 
